@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+   
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+p{
+    text-align: center;
+}
+
+p::before{
+    content: "Hi!";
+    background: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    
+
+}
+
+p::after{
+    content: "Hi!";
+    background: rgb(209, 137, 137);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+}

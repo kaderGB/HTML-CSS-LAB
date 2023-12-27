@@ -1,0 +1,45 @@
+.ar{
+ width: 100px;
+ height: 100px;
+ background: #000;
+}
+
+.display{
+    width: 600px;
+    height: 600px;
+    background: #000;
+    display: block;
+    
+    gap: 10px;
+    
+   }
+
+   .one{
+    background-color: aqua;
+    margin-bottom: 10px;
+    position: relative;
+    left: 300px;
+    
+    
+   }
+
+   .two{
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 400px;
+    top: 15 0px;
+    
+   }
+
+   .three{
+    background-color: rgb(240, 244, 244);
+    margin-bottom: 10px;
+    position: fixed;
+   }
+
+   .four{
+    background-color: rgb(140, 226, 28);
+    margin-bottom: 10px;
+    position: sticky;
+   }

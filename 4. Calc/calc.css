@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.S{
+    width: calc(300px + 100px);
+    height: calc(100px*2);
+    background: yellowgreen;
+    padding: 10%;
+}

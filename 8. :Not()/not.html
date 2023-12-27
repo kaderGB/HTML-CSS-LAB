@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="not.css">
+    <title>:not()</title>
+</head>
+<body>
+    <h1 style="text-align: center;">:not() selected all p without p with class=".content" ,  :not(.content){}</h1>
+    <section class="section">
+        <article class="article">
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestiae dolores aperiam maxime odio ex quos pariatur praesentium ratione voluptate corrupti assumenda nobis, impedit incidunt! Iusto, doloribus. Necessitatibus, culpa molestias.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, deserunt?</p>
+
+        </article>
+    </section>
+<h1 style="text-align: center;">:not() selected two button but we apply the :not() on :not([disabled]){}</h1>
+    <div class="btn-lst">
+        <button class="hi">Hi</button>
+        <button class="hi">Hi</button>
+        <button class="hi" disabled>Hi</button>
+    </div>
+
+    <h1 style="text-align: center;">:not() with a .tah a:not([href*="facebook.com"]){
+        font-size: 30px;
+    }</h1>
+    <div class="tah">
+        <a href="googl.com">google</a>
+        <a href="facebook.com">facebook</a>
+        <a href="bing.com">bind</a>
+    </div>
+    
+</body>
+</html>

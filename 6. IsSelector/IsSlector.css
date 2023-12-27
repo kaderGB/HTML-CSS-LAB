@@ -1,0 +1,5 @@
+
+
+:is(header,main,footer):is(h1,h2){
+    color: rgb(44, 44, 177);
+}

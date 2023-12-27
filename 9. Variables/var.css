@@ -1,0 +1,22 @@
+:root{
+    --primary-color:#c72626;
+    --second-col:#27b25e;
+    --backgr:#d7e021;
+    --font-size:50px;
+    --p:20px;
+}
+
+
+.z{
+width: 100px;
+height: 100px;
+border-radius: 5px;
+margin-bottom: 5px;
+}
+.primary{
+    background: var(--primary-color);
+    }
+
+.second{
+    background: var(--second-col);
+    }

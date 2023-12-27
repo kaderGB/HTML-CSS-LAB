@@ -1,0 +1,40 @@
+body{
+    background: wheat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+}
+
+.section{
+    height: 300px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    color: yellowgreen;
+}
+
+.section .article p:not(.content){
+     color: brown;
+     font-size: 14px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+.btn-lst button:not([disabled]){
+    color: brown;
+    background: yellow;
+}
+
+
+
+.tah a:not([href*="facebook.com"]){
+    font-size: 30px;
+}

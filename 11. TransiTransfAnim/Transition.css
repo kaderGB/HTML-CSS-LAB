@@ -1,0 +1,27 @@
+:root{
+    --bg:#0d766f;
+}
+
+.container{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+.container > div{
+    
+    width: 200px;
+    height: 200px;
+    background-color: var(--bg);
+    border-radius: 20px;
+    //Transition
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+   
+}
+
+.container > div:hover{
+    background: yellow;
+}

@@ -1,0 +1,42 @@
+:root{
+    --bg:#0d766f;
+}
+
+.container{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+.container > div{
+    
+    width: 200px;
+    height: 200px;
+    background-color: var(--bg);
+    border-radius: 20px;
+    //Animation
+  animation-name: animation;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 4s;
+   
+}
+
+@keyframes animation{
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+}

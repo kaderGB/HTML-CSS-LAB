@@ -1,0 +1,23 @@
+:root{
+    --bg:#0d766f;
+}
+
+.container{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+.container > div{
+    
+    width: 200px;
+    height: 200px;
+    background-color: var(--bg);
+    border-radius: 20px;
+    //transform: translate(100px,200px); row X and col Y
+    //transform: rotate(40deg);
+    //transform: scale(3,1); 1=default value;
+    //transform: skew(30deg);
+   
+}
